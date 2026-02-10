@@ -12,12 +12,12 @@ import { AlertCircle } from 'lucide-react';
 // 1. YOUR PHOTOS (Swiping Stack)
 // Add URLs to your photos here.
 const MY_PHOTOS: string[] = [
+  new URL('./ME/20251219_175154.jpg', import.meta.url).href,
   new URL('./ME/20250821_151940.jpg', import.meta.url).href,
   new URL('./ME/20250830_191515.jpg', import.meta.url).href,
+   new URL('./ME/20260103_113324.jpg', import.meta.url).href,
+  new URL('./ME/20260202_091657.jpg', import.meta.url).href, 
   new URL('./ME/20251116_212241.jpg', import.meta.url).href,
-  new URL('./ME/20251219_175154.jpg', import.meta.url).href,
-  new URL('./ME/20260103_113324.jpg', import.meta.url).href,
-  new URL('./ME/20260202_091657.jpg', import.meta.url).href,
   new URL('./ME/20260209_145808.jpg', import.meta.url).href,
 ];
 
