@@ -90,14 +90,6 @@ function App() {
 
   return (
     <div className="relative w-full h-screen overflow-hidden bg-gray-100 flex flex-col items-center justify-center">
-      {/* Top Bar */}
-      <div className="absolute top-0 w-full h-16 bg-white z-10 flex items-center justify-between px-4 shadow-sm">
-        <div className="flex gap-1">
-             <img src="https://cdn-icons-png.flaticon.com/512/2504/2504929.png" alt="Logo" className="w-8 h-8" />
-             <span className="text-rose-500 font-bold text-2xl tracking-tighter">tinder</span>
-        </div>
-      </div>
-
       {/* Main Card Area */}
       <div className="relative w-full max-w-sm h-[65vh] md:h-[70vh] mt-4">
         <AnimatePresence>
