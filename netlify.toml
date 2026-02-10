@@ -1,0 +1,4 @@
+[build]
+  base = "valentinder"
+  command = "npm run build"
+  publish = "valentinder/dist"
