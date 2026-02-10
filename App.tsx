@@ -4,7 +4,7 @@ import { Controls } from './components/Controls';
 import { MatchOverlay } from './components/MatchOverlay';
 import { AppMode, Profile } from './types';
 import { AnimatePresence, motion } from 'framer-motion';
-import { MessageCircle, User, AlertCircle } from 'lucide-react';
+import { AlertCircle } from 'lucide-react';
 
 
 // --- CONFIGURATION ---
@@ -92,16 +92,10 @@ function App() {
     <div className="relative w-full h-screen overflow-hidden bg-gray-100 flex flex-col items-center justify-center">
       {/* Top Bar */}
       <div className="absolute top-0 w-full h-16 bg-white z-10 flex items-center justify-between px-4 shadow-sm">
-        <button className="text-gray-400 p-2">
-            <User size={28} />
-        </button>
         <div className="flex gap-1">
              <img src="https://cdn-icons-png.flaticon.com/512/2504/2504929.png" alt="Logo" className="w-8 h-8" />
              <span className="text-rose-500 font-bold text-2xl tracking-tighter">tinder</span>
         </div>
-        <button className="text-gray-400 p-2">
-            <MessageCircle size={28} />
-        </button>
       </div>
 
       {/* Main Card Area */}
