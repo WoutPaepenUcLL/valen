@@ -12,18 +12,18 @@ import { MessageCircle, User, AlertCircle } from 'lucide-react';
 // 1. YOUR PHOTOS (Swiping Stack)
 // Add URLs to your photos here.
 const MY_PHOTOS: string[] = [
-  './ME/20250821_151940.jpg',
-  './ME/20250830_191515.jpg',
-  './ME/20251116_212241.jpg',
-  './ME/20251219_175154.jpg',
-  './ME/20260103_113324.jpg',
-  './ME/20260202_091657.jpg',
-  './ME/20260209_145808.jpg',
+  new URL('./ME/20250821_151940.jpg', import.meta.url).href,
+  new URL('./ME/20250830_191515.jpg', import.meta.url).href,
+  new URL('./ME/20251116_212241.jpg', import.meta.url).href,
+  new URL('./ME/20251219_175154.jpg', import.meta.url).href,
+  new URL('./ME/20260103_113324.jpg', import.meta.url).href,
+  new URL('./ME/20260202_091657.jpg', import.meta.url).href,
+  new URL('./ME/20260209_145808.jpg', import.meta.url).href,
 ];
 
 // 2. MATCH SCREEN PHOTOS
 // URL for HER photo (appears on the left in match screen)
-const HER_PHOTO = './her/20260105_172329.jpg'; // e.g., "https://mysite.com/her.jpg"
+const HER_PHOTO = new URL('./her/20260105_172329.jpg', import.meta.url).href; // e.g., "https://mysite.com/her.jpg"
 
 // Optional: URL for YOUR photo in match screen (appears on right).
 // If left empty, it will use the photo from the card she just swiped right on.
